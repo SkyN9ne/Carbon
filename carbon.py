@@ -1,10 +1,10 @@
-# Made by 0sir1ss @ https://github.com/0sir1ss/Carbon
+#!/usr/bin/env python3
 import ast, re, random, io, tokenize, os, sys, platform, math
 
 is_windows = True if platform.system() == "Windows" else False
 
 if is_windows:
-    os.system("title Carbon @ github.com/0sir1ss/Carbon")
+    os.system("title Carbon")
 
 def clear():
     if is_windows:
@@ -14,7 +14,7 @@ def clear():
 
 def pause():
     if is_windows:
-        os.system(f"pause >nul")
+        os.system(f"pause >NUL")
     else:
         input()
 
